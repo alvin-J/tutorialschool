@@ -1,0 +1,35 @@
+.padd40 {
+	padding: 40px;
+}
+
+.removemar_p {
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.removemar_p p {
+	margin:0px;
+}
+
+.thegreatdivide {
+	clear: both;
+height: 50px;
+}
+
+#subjecttext {
+	border: 0px;
+border: 1px solid #ccc;
+width: 97.333%;
+}
+
+#msgbox {
+	padding:5px;
+	border: 1px solid #ccc;
+min-height: 150px;
+	resize: vertical;
+}
+
+.floatrightbtn {
+	float: right;
+width: 50%;
+}

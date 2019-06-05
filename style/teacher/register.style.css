@@ -1,0 +1,103 @@
+body {
+	background: #eb7187;
+}
+
+hr {
+	border-color:#dedddd;
+	margin: 5px 0px;
+}
+
+p {
+	margin:0px;
+}
+
+.regcenter {
+	margin: auto;
+width: auto;
+overflow: hidden;
+}
+
+.centerdiv {
+	margin: 10px auto;
+	float: none;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.regdiv {
+border-bottom: 1px solid #bdbbbb;
+margin-bottom: 15px;
+}
+
+.regdiv i{
+	margin-top: 9px;
+}
+
+.regdiv input[type='text'],
+.regdiv input[type='email'],
+.regdiv input[type='password']{
+	margin-bottom:0px;
+	border: none;
+}
+
+.regdiv input[type='text']:focus,
+.regdiv input[type='email']:focus,
+.regdiv input[type='password']:focus {
+	border: none;
+}
+
+.personalinformation {
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.examproper {
+margin-top: 13px;
+}
+ 
+textarea {
+	border: 1px solid #e1e1e1;
+	padding: 5px;
+	min-height: 80px;
+	font-size: 13px;
+	margin-top: 3px;
+	resize: vertical;
+}
+
+.qdivs {
+	float: none;
+	margin-top:15px;
+}
+
+.regteachbtn {
+	float: right;
+	padding: 8px 25px;
+	border-radius: 3px;
+	border: 1px solid #eb7187;
+	background: #eb7187;
+	color: #fff;
+}
+
+.regteachbtn:hover {
+	background: #dd5f76;
+}
+ 
+.errordiv p{
+	text-align: center;
+	background: red;
+	color: #fff;
+	margin-bottom: 4px;
+	box-shadow: 0px 1px 3px #3636364d;
+}
+
+.successtch {
+	background: #fff;
+	text-align: center;
+	padding: 15px;
+	width: 100%;
+	z-index: 1000000;
+	box-shadow: 0px 1px 3px #333;	
+}

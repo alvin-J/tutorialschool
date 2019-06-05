@@ -1,0 +1,187 @@
+.booktutor {
+	background: transparent !important;
+	float: right;
+	font-weight: bold;
+	font-size: 16px;
+	color: #49AD59;
+	margin-top: -6px;
+	margin-right: 9px;
+
+		transition: color .5s;
+	-webkit-transition: color .5s;
+	-moz-transition: color .5s;
+	-o-transition: color .5s;
+}
+
+.bigfa {
+	font-size: 33px;
+}
+
+.btspan {
+	position: relative;
+top: -6px;
+}
+
+.booktutor:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+.notificationdiv {
+	position: fixed;
+top: 22px;
+z-index: 100000000;
+right: 0;
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+.logohold {
+	width: auto;
+display: table;
+margin: auto;
+}
+
+.logohold img {
+	width:50px;
+	float: left;
+}
+
+.logohold .logotext {
+	float: left;
+	margin-left: 13px;
+}
+
+.logohold .logotext p {
+
+}
+
+.thecompname {
+	font-size: 20px;
+	margin:0px;
+margin-bottom: -6px;
+margin-top: 4px;
+color: #d8687b;
+}
+
+.thecompdet{
+margin: 0px;
+font-size: 11px;
+font-weight: normal;
+color: #e691a0;
+}
+
+.top-navbar .navbar-brand {
+	background:transparent;
+}
+
+.notifdiv {
+display: none;
+background: #E64848;
+border-bottom: 1px solid #cc8d50;
+position: fixed;
+bottom: 0px;
+z-index: 100000000000000000000000;
+width: 100%;
+box-shadow: 0px -3px 3px #1b1b1b4d;
+}
+
+.notifdiv p{
+margin: 0px;
+text-align: center;
+padding: 35px;
+color: #fff;
+font-size: 18px;
+}
+
+.p_exp {
+	margin: 0px;
+text-align: center;
+padding: 10px;
+background: #e64848;
+color: #fff;
+}
+
+#blackerdiv {
+	position: fixed;
+top: 0px;
+left: 0px;
+z-index: 1000;
+background: rgba(0,0,0,0.4);
+width: 100%;
+height: 100%;
+}
+
+.lodingp {
+	position: fixed;
+	top: 0px;
+	left:0px;
+	z-index: 100000000000000;
+	background: #fcacac;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	box-shadow: 0px 1px 2px #8f8e8e;
+	border-bottom: 1px solid #fff;
+	margin: 0px;
+}
+
+.modalview {
+	display:none;
+	position: fixed;
+	top: 0px;
+	z-index: 10000000000000;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.67);
+}
+
+.modalinner {
+	background: #fff;
+	display: table;
+	margin: auto;
+	border-radius: 4px;
+}
+
+.margintop {
+	margin-top: 20px;
+}
+
+.rightdivps {
+	min-height: 530px;
+}
+
+.bottomit {
+	position: absolute;
+	bottom: 0px;
+}
+
+.iconme {
+	position: relative;
+	top: 6px;
+}
+
+.fr {
+	float: right;
+	margin-right: 20px;
+}
+
+.unshad {
+	box-shadow: none;
+}
+
+.spanstat {
+	float: right;
+	font-size: 11px;
+	position: relative;
+	top: 1px;
+	border: 3px solid #b74949;
+	padding: 6px 12px;
+	background: #ffbaba;
+	color: #b74949;
+	letter-spacing: 3px;
+	border-radius: 99px;
+}

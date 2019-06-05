@@ -1,0 +1,32 @@
+.tblstud{
+
+}
+
+.tblstud tr{
+	border-bottom:1px solid #e9e9e9;
+}
+
+.tblstud tr th {
+	width: 30%;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.tblstud tr td{
+padding: 7px;	
+}
+
+.tblstud tr:last-child {
+	border:none;
+}
+
+.paysliplist {
+	
+}
+
+.paysliplist li {
+	padding: 15px 0px;
+	border: 1px solid #d8d8d8;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}

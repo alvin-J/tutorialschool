@@ -1,0 +1,391 @@
+.datepaginator {
+	text-align: center;
+}
+
+#thedates {
+display: inline-block;
+}
+
+#thedates li{
+	display: inline-block;
+float: left;
+width: 135px;
+margin: 0px 10px;
+text-align: center;
+font-weight: bold;
+color:#323232;
+
+transition: box-shadow .5s;
+-webkit-transition: box-shadow .5s;
+-moz-transition: box-shadow .5s;
+-o-transition: box-shadow .5s;
+}
+
+#thedates li:hover {
+	cursor: pointer;
+	box-shadow: 0px 2px 3px #9e9797;
+}
+
+#thedates li p {
+	margin: 0px;
+}
+
+.monthcap {
+padding: 5px;
+background: #ECEAEB;
+border-bottom: 1px solid #dadada;
+}
+
+.monthdate {
+	background: #fff;
+	font-size: 55px;
+	line-height: unset;
+	padding: 17px 0px;
+}
+
+#previousdate {
+display: inline-block;
+font-size: 60px;
+position: relative;
+top: -54px;
+color:#47AB59;
+}
+
+#nextdate {
+display: inline-block;
+font-size: 60px;
+margin-top: 35px;
+position: relative;
+top: -54px;
+color:#47AB59;
+}
+
+.selecteddate {
+
+}
+
+.selecteddate .monthcap {
+	background: #47AB59;
+	color:#fff;
+}
+
+.selecteddate .monthdate {
+	color: #47AB59;
+}
+
+.sc_head {
+text-align: center;
+margin: 0px;
+padding: 10px 0px;
+}
+
+.classdivbox {
+	background: #FFF;
+}
+
+.classdivbox ul {
+
+}
+
+.classdivbox ul li{
+	text-align: center;
+	padding: 30px 0px;
+	border-top: 1px solid #e4e4e4;
+	position:relative;
+}
+
+.hassked {
+	color:#fff;
+	background:#48AE59;
+}
+
+.hassked:hover {
+	cursor:pointer;
+	background:#349043;
+}
+
+.in_wrap {
+	border: 1px solid #ccc;
+}
+
+.in_wrap .borderdiv {
+	border-right:1px solid #ccc;
+padding: 19px 0px 0px 0px;
+}
+
+.in_wrap .borderdiv:last-child {
+	border:none;
+}
+
+.rowwrap {
+	width:75%;
+	margin:auto;
+}
+
+.btutors {
+	margin: 0px 0px 25px 0px;
+padding: 10px 15px;
+background: #FDB211;
+color: #fff;
+}
+
+.spanstatus {
+	padding: 5px 10px;
+	font-size: 11px;
+}
+
+.tutorfname {
+	margin:0px;
+}
+
+.tutsdets p {
+	margin:0px;
+}
+
+.padding25 {
+	margin-top: 25px;
+}
+
+.msgdiv p{
+	margin:0px;
+	padding:20px;
+}
+
+.fontsize50 {
+	/*padding: 30px 0px 30px 45px;*/
+	font-weight: bold;
+	min-height: unset;
+}
+
+.fontsize50 .pheadpad {
+	padding: 30px 0px 30px 20px;
+	margin:0px;
+	font-size: 30px;
+}
+
+.rightdets {
+	border-left: 1px solid #333;
+	padding-left: 40px;
+	margin-left: 27px;
+}
+
+.spantext {
+	font-size: 15px;
+font-weight: normal;
+position: relative;
+top: -6px;
+	color:#333;
+}
+
+.colorpink {
+	color:pink;
+}
+
+.colorvio {
+	color:violet;
+}
+
+.colorgreen {
+	color:#87d487;
+}
+
+.colorblue {
+	color:#99f;
+}
+
+.collapsible-body p {
+	padding:0px; 
+}
+
+.lessphead {
+	padding: 20px !important;
+text-align: center;
+}
+
+.lessdets {
+	padding:10px 0px;
+}
+
+.getmargin {
+	margin:0px;
+	border-bottom:1px solid #ccc;
+}
+
+.getmargbot {
+	margin-bottom: 0px;
+}
+
+.datenav:hover {
+	cursor: pointer;
+	color:#1A5424 !important;
+}
+
+#gobacktoday {
+	font-size: 13px;
+margin-left: 7px;
+color: #747474;
+border-left: 1px solid #333;
+padding-left: 12px;
+display: none;
+}
+
+.noclass:hover {
+	cursor: pointer;
+	background: #f1f1f1;
+}
+
+.nobookmarked {
+text-align: center;
+color: #898989;
+}
+
+.teacherdets:hover {
+	cursor: pointer;
+	background: #f1f1f1;
+}
+
+#optionsdiv {
+border: 1px solid #ccc;
+/*width: 100%;*/
+margin: auto;
+position: absolute;
+/*top: 45px; */
+background: #fff;
+border-radius: 5px;
+z-index: 1000;
+}
+
+#optionsdiv:before {
+	content: "\f0d8";
+	font-family: 'fontawesome';
+	top: -31px;
+	position: absolute;
+	font-size: 36px;
+	left: 24px;
+	color: #FFF;
+	text-shadow: 0px -1px 0px #b3b3b3;
+}
+
+#optionsdiv ul{
+	margin: 0px;
+}
+
+#optionsdiv ul li{
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#optionsdiv ul li:hover {
+	background: #f1f1f1;
+}
+
+.paddingbot {
+	padding-bottom: 20px;
+}
+
+
+.reportbtn {
+	background: #FDB211;
+	width: 100%;
+	padding: 9px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.reportbtn:hover {
+	background: #F9CB68;
+}
+
+.modalshow {
+	display:none;
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index: 10000;
+	background: rgba(0, 0, 0, 0.68);
+}
+
+.skedview {
+	width: 38%;
+	margin: 50px auto 0px;
+	background: #fff;
+	overflow:hidden;
+}
+
+.skedview h4 {
+	font-size: 16px;
+	margin: 5px 0px 0px 12px;
+	color: #717171;
+}
+
+.dets span {
+	font-size:11px;
+}
+
+.dets p {
+	font-size:18px;
+}
+
+.btnoption {
+	padding: 14px 11px;
+	text-align: center;
+	font-size: 16px;
+	cursor:pointer;
+}
+
+.cancelbtn {
+	background: #dcdbdb;
+}
+
+.gotocroom {
+	background: #ec7979;
+	color:#fff;
+}
+
+.gotocroom:hover {
+	background: #de6060;
+}
+
+.cancelbtn:hover {
+	background: #bab8b8;
+}	
+
+#statusid p{
+	clear:both;
+	text-align: center;
+	background: #ff3838;
+	padding: 10px;
+	color: #fff;
+	margin:0px;
+}
+
+#closethis {
+	float: right;
+	margin-right: 12px;
+	cursor:pointer;
+}
+
+#closethis:hover {
+	color:#f3f3f3;
+}
+
+.passdate{
+	background: #ccc;
+}
+
+.haspassedsked {
+	background: #475F4B !important;
+	color:#fff;
+}
+
+.getborder {
+	border:0px;
+}
+
+.skedselected {
+	background: #fcecef;
+}
+
+
+

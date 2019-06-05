@@ -1,0 +1,107 @@
+.bclass {
+padding: 0px;
+
+margin: 0px;
+}
+
+.bclass li {
+	list-style: none;
+	padding: 20px 0px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+.tblheads {
+	text-align: center;
+	padding: 12px;
+	margin:0px;
+}
+
+.bclassh3 {
+	background: #96E2FA;
+	color:#fff;
+	font-weight: bold;
+}
+
+.btutorsh3 {
+	background: #FDB211;
+	color:#fff;
+	font-weight: bold;
+}
+
+.bookeddiv {
+background: #fff;
+min-height: 440px;
+margin-right: 53px;
+padding: 0px;
+width: 43%;
+}
+
+.marginright {
+	margin-right: 10px;
+}
+
+.getmargin {
+	margin:0px !important;
+}
+
+.getborder {
+	border:none !important;
+}
+
+.showindow {
+	overflow: hidden;
+	margin-top: 8px;
+}
+
+.card_body {
+	padding: 5px 8px;
+	border-top: 1px solid #ededed;
+}
+
+.fbs {
+
+}
+
+.fbs table{
+	
+}
+
+.fbs table tr{
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.fbs table tr td{
+	
+}
+
+.fbs table tr td:first-child{
+	text-align: right;
+	padding: 8px 13px 8px 0px;
+}
+
+.fbs table tr td:last-child{
+	
+}
+
+.englvl {
+	background: #ec7489;
+padding: 10px;
+color: #fff;
+}
+
+.englvl span {
+	font-size: 16px;
+	font-weight: bold;
+	background: #fff;
+	color: #f37e92;
+	padding: 2px 10px;
+	border-radius: 99px;
+}
+
+.fb_head {
+	text-align: center !important;
+	border-bottom: 2px solid #dedbdb;
+	font-size: 17px;
+	font-weight: normal;
+}

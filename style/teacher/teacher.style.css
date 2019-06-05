@@ -1,0 +1,225 @@
+body {
+	overflow-x:hidden;
+}
+
+.legendhold {
+	margin-top: 32px;
+}
+
+.legendul {
+
+}
+
+.legendul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.legendul li div {
+padding: 10px;
+border: 1px inset #bdbcbc;
+float: left;
+background: #efefef;
+margin-right: 7px;
+}
+
+.legendul li span {
+
+}
+
+.openspan {
+
+}
+
+.openspan div {
+	background: #fff !important;
+}
+
+.openspan span {
+
+}
+
+.bookspan {
+
+}
+
+.bookspan div {
+	background: #48AE5A !important;
+}
+
+.bookspan span {
+
+}
+
+.closespan div {
+	background: #8A8A8A !important;
+}
+
+.closespan span {
+
+}
+
+.closespan {
+
+}
+
+.theclock {
+	background: #48AE5A;
+	padding: 12px 20px 35px;
+	font-family: ari;
+}
+
+.theclock p {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.theclock p span{
+	
+}
+
+.theiconc {
+	font-size: 40px;
+	position: relative;
+	top: 10px;
+}
+
+.thedate{
+	font-size: 12px;
+	float: right;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.midit {
+	text-align: center;
+}
+
+.thebuttondiv {
+	width:60%;
+	margin:auto;
+}
+
+.thebuttondiv span{
+	display: inline-block;
+	border: 1px solid #48AE5A;
+	padding: 10px 30px;
+	width: 37%;
+	font-size: 19px;
+	margin-right: -4px;
+}
+
+.thebuttondiv span:hover {
+background: #f1f1f1 !important;
+cursor: pointer;
+color: #333;
+}
+
+.att_selected {
+	background: #48AE5A !important;
+	color: #fff;
+}
+
+.skeddate .row {
+	margin-bottom: 0px;
+}
+ 
+.stddets { 
+	position: absolute;
+	background: #fff;
+	z-index: 100;
+	border: 1px solid #b7b7b7;
+	width: 100%;
+	margin-top: 20px;
+	box-shadow: 0px 3px 5px #a1a1a1;
+	border-radius: 5px;
+	padding: 3px 10px;
+}
+
+.stddets::before {
+	content: "\f0d8";
+	font-family: FontAwesome;
+	font-size: 50px;
+	color: #fff;
+	position: absolute;
+	top: -43px;
+}
+
+.stdname {
+	color: #333;
+	margin: 0px;
+	padding: 8px;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+}
+
+.stdheader {
+    color: #7e7c7c;
+    font-size: 11px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.tcomment {
+	font-size: 14px;
+color: #333;
+}
+
+.btndiv {
+	margin-top: 10px;
+border-top: 1px solid #e7e7e7;
+padding: 5px 0px;
+}
+
+.btndiv button{
+	width: 100%;
+	padding: 8px 5px;
+	border-radius: 3px;
+	border: 1px solid #e7e7e7;
+	color: #333;
+}
+
+.btndiv button:hover {
+	background:#ccc;
+	border: 1px solid #a1a1a1;
+}
+
+.bodydiv{
+	padding:5px 0px 10px;
+	color: #333;
+text-align: left;
+}
+
+.closethewin {
+	float: right;
+	margin-top: 5px;
+}
+
+.closethewin:hover {
+	color:#ccc;
+}
+
+.classdivbox ul {
+	
+}
+
+.classdivbox ul li{
+	
+}
+
+.classdivbox ul li:hover{
+	cursor:pointer;
+	background:#f0f0f0;
+	color:#000;
+}
+
+.forabsent {
+background: #b5c4c6 !important;	
+}
+
+.imabsent {
+	background: #8a8a8a;
+	color: #fff;	
+}

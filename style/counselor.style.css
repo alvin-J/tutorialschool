@@ -1,0 +1,591 @@
+.counslist{
+	margin: 0px -1px -1px 0px;
+	padding: 9px;
+	background: #f8f8f8;
+	border: 1px solid #ccc;
+}
+
+.counslist:hover {
+	cursor: pointer;
+	background: #fff;
+}
+
+.counslist table{
+	
+}
+
+.counslist table tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.counslist table tr:last-child {
+	border: none;
+}
+
+.counslist table tr th{
+	width: 15%;
+	text-align: right;
+	padding: 5px;
+}
+
+.counslist table tr td span{
+	background: green;
+	color: #fff;
+	padding: 0px 8px;
+	font-size: 12px;
+	border-radius: 99px;
+}
+
+.thedates {
+overflow: hidden;
+}
+
+.thedates select{
+	display: block;
+	/*float: left; */
+	margin-right: 8px;
+	height: 42px;
+	border: 1px solid transparent;
+	text-align: center;
+	font-size: 18px;
+}
+
+.ulholderdiv {
+	overflow: hidden;
+	min-height: 555px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.timescheds {
+
+}
+
+.timescheds ul{
+	
+}
+
+.timescheds ul li{
+	border: 1px solid #ccc;
+padding: 9px;
+margin-bottom: 8px;
+background: #f8f8f8;	
+}
+
+.timescheds ul li:hover {
+	cursor: pointer;
+	background: #fff;
+}
+
+.timescheds h4 {
+	border-bottom: 4px solid #d8688b;
+padding: 13px 0px;
+text-align: center;
+}
+
+.timescheds hr {
+	border-color: #bababa;
+margin-bottom: 5px;
+}
+
+.bright {
+	border-right: 1px solid #ccc;
+}
+
+#bookme {
+ 
+}
+
+.getmarginbot {
+	margin-bottom: 0px;
+}
+
+.bookedtime {
+	background: #bcbcbc !important;
+	border: none !important;
+	text-align: center;
+	cursor: auto !important;
+	color: #0b0b0b !important;
+}
+
+.slotboxdiv {
+	border: 1px solid #ccc;
+margin-bottom: 5px;
+padding: 8px;
+background: #fff;
+border-radius: 4px;
+box-shadow: 0px 1px 1px #ccc;
+}
+
+.slotboxdiv table tr td span {
+
+}
+
+.slotboxdiv:hover {
+	background: #f1f1f1;
+	cursor: pointer;
+}
+
+#bookhere {
+position: absolute;
+background: #f8f8f8;
+left: -1px;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+width: 100.5555555%;
+margin-top: 9px;
+padding-top: 0px;
+border-top: 1px solid #ccc;
+z-index: 10000;
+box-shadow: 0px 6px 9px #3333334d;
+}
+
+.counslist #bookhere:hover {
+	background: #fff;
+}
+
+#bookhere select {
+	display: block;
+	width: 33%;
+	float: left;
+	border: 1px solid #ccc;
+	height: 40px;
+}
+
+#bookhere h5 {
+	margin: 15px 0px 5px 0px;
+padding-bottom: 3px;
+font-size: 13px;
+}
+
+#bookhere textarea {
+	height: 65px;
+font-size: 12px;
+padding: 3px;
+border: 1px solid rgb(204, 204, 204);
+resize: vertical;
+max-height: 200px
+}
+
+#bookhere ul li {
+font-size: 13px;
+padding: 3px;
+height: 28px;
+}
+
+.removepad {
+	padding:0px;
+}
+
+.mtxt {
+	text-align: center;
+border-bottom: 3px solid #747474;
+margin: 0px 4px 6px !important;
+font-size: 10px !impor
+}
+
+.timesel_sel {
+	width: 100%;
+background: #ed4747;
+color: #fff;
+}
+
+.page-header {
+	border-bottom: 1px solid #b1b1b1;
+}
+
+#page-inner {
+
+}
+
+#page-inner hr{
+	border-color:#b1b1b1;
+	margin-top: 0px;
+}
+
+.thebookingslist {
+
+}
+
+.thebookingslist li {
+	border: 1px solid #e0dede;
+padding: 6px;
+background: #fff;
+/*border-radius: 4px; */
+margin-bottom: 3px;
+}
+
+.thebookingslist li:nth-child(2n+2) {
+	background:#efefef;
+}
+
+.thebookingslist li table {
+	
+}
+
+.thebookingslist li:hover {
+background: #cb6060;
+color: #fff;
+box-shadow: 0px 2px 3px #a89393;
+border: 1px solid #ef5252;
+position: relative;
+z-index: 1000;
+cursor: pointer;
+}
+
+.thebookingslist li:hover > table tr {
+	border-bottom: 1px solid #f98383;
+}
+
+.thebookingslist li table tr {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.thebookingslist li table tr:last-child {
+	border-bottom: none;
+}
+
+.thebookingslist li table tr td {
+	padding: 9px 2px;
+}
+
+.thebookingslist li table tr th {
+	text-align: right;
+padding-right: 25px;
+}
+
+.fullwidth {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.infotable {
+background: #fff;
+border: 1px solid #e0dede;
+border-radius: 6px;
+box-shadow: 0px 1px 2px #c5c0c0;
+}
+
+.infotable tr{
+	border-bottom: 1px solid #d7d5d5;
+}
+
+.infotable tr td{
+	padding: 11px;
+}
+
+.infotable tr td h4 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+
+.infotable tr td p {
+	margin: 0px
+}
+
+.infotable tr th{
+	padding: 8px 6px;
+	text-align: right;
+	width:20%;
+	vertical-align: top;
+}
+
+.infotable tr th.suphead{
+	text-align: left !important;
+	padding: 20px 0px 20px 25px !important;
+	background: #968888;
+color: #fff;
+}
+
+.blli_box {
+	background: #cb6060 !important;
+color: #fff  !important;
+box-shadow: 0px 2px 3px #a89393  !important;
+border: 1px solid #ef5252 !important;
+position: relative !important;
+z-index: 1000 !important;
+}
+
+.blli_box table tr {
+	border-bottom: 1px solid #f98383;
+}
+
+.blli_box table tr:last-child {
+	border-bottom: 0px;
+}
+
+.whiteit {
+	background: #fff;
+} 
+
+.greyit {
+	background: #f1f1f1;
+}
+
+.headertxt {
+	margin-top: 0px;
+	padding-top: 0px;
+	border-bottom: 1px solid #bcbcbc;
+	padding-bottom: 7px;
+	margin-bottom: 10px;
+}
+
+input[type='text'].searchtxt {
+	padding: 14px;
+	border-radius: 3px;
+	border: 1px solid #bfbfbf;
+	background: #fff;
+	box-shadow: 0px 2px 2px #d5d5d5;
+	width: 94%;
+}
+
+.nameullist {
+
+}
+
+.nameullist li{
+	overflow: hidden;
+padding: 4px 0px;
+border-bottom: 1px solid #d1d1d1;
+}
+
+.nameullist li:nth-child(2n+2) {
+	background:#f6f6f6;
+}
+
+.nameullist li:hover {
+	background: #f1f1f1;
+	cursor: pointer;
+}
+
+.nameullist li .th {
+	font-weight: normal;	
+	text-align: right;
+	font-size: 10px;
+	padding-top: 3px;
+	color: #7e7878;
+	text-transform: uppercase;
+}
+
+.paddtop {
+	padding-top: 15px;
+}
+
+.informationtbl {
+
+}
+
+.informationtbl tr{
+	border-bottom: 1px solid #ccc;
+}
+
+.informationtbl tr td{
+	
+}
+
+.informationtbl tr th{
+    padding: 5px;
+    width: 45%;
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+    padding-right: 20px;
+}
+
+.feedbacktbl {
+/*margin-top: 20px; */
+}
+
+.feedbacktbl tr {
+border-bottom: 1px solid #ccc;
+}
+
+.feedbacktbl tr:last-child {
+	border-bottom: 0px;
+}
+
+.feedbacktbl tr th{
+	padding: 13px 0px;
+}
+
+.feedbacktbl tr td{
+	padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.feedbacktbl tr td:first-child {
+	text-align: right;
+	font-weight: bold;
+}
+
+.feedbacktbl tr td:last-child {
+padding-left: 17px;
+}
+
+.ptab {
+	background: #c9c9c9;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px;
+border-bottom: 1px solid #727272;
+}
+
+.roundthis {
+	border-radius: 5px;
+ /*border: 5px solid #fff;*/
+box-shadow: 0px 2px 3px #ccc;
+}
+
+.selectedli {
+	background: #ffdcda !important;
+}
+
+.outerdiv {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: #000000b3;
+	left: 0px;
+	z-index: 1000;
+}
+
+.innerdiv {
+width: 50em;
+margin: 16px auto;
+background: #fff;
+border: 10px solid #9c9898;
+border-radius: 10px;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.overflow h4 {
+margin: 0px;
+text-align: center;
+}
+
+.overflow h5 {
+	padding: 0px 10px 6px;
+	margin: 30px 15px -1px;
+	border-bottom: 5px solid;
+	float: left;
+}
+
+.overflow h2 {
+		text-align: center;
+font-weight: bold;
+color: #d14a4a;
+	
+}
+
+.overflow h6 {
+color: #626161;
+}
+
+.overflow hr {
+	margin: 15px 0px;
+}
+
+.overflow select {
+	display: block;
+font-size: 1.6em;
+height: 48px;
+padding: 0px 5px;
+}
+
+.overflow p {
+	font-size: 1.6em;
+font-weight: bold;
+}
+
+.statusdiv {
+	text-align: center; 
+	margin: 0px 0px; 
+	padding: 5px 0px;
+}
+
+.valid_stat {
+	background: #ff8c8c;
+}
+
+.invalid_stat {
+	background: #333;
+	color:#fff;
+}
+
+.small_style {
+	font-size: 1em;
+}
+
+#closewindow {
+	color: #ccc;
+}
+
+#closewindow:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+.remstyle {
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+
+.alignright {
+	text-align: right;
+}
+
+#newstudent {
+	overflow: hidden;
+	background: #fff;
+	padding: 0px 20px 30px;
+	border-radius: 5px;
+	border: 1px solid #c5c5c5;
+	box-shadow: 0px 2px 2px #c8c8c8;
+}
+
+.selectdiv {
+	display: block;
+	height: 50px;
+	border: 1px solid #c6c6c6;
+	margin: 5px 0px;
+}
+
+.menuwindow {
+	box-shadow: 0px 2px 3px #a4a4a4;
+border-radius: 5px;
+border: 1px solid #c3bebe;
+}
+
+.addmargtop {
+	margin-top: 17px !important;
+}
+
+#addnewstudent {
+	box-shadow: none;
+	border-bottom: 3px solid #a5a5a5;
+	padding-bottom: 4px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+#addnewstudent:hover {
+	cursor: pointer;
+	/*
+	font-weight: bold;
+	font-size: 13px;
+	*/
+	border-color: #d8687b;
+}
+
+#cancelthis {
+	float: right;
+}
+
+#cancelthis:hover {
+	cursor: pointer;
+	color:#333;
+}

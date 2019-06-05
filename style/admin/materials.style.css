@@ -1,0 +1,392 @@
+p {
+	margin:0px;
+}
+.control_p {
+	margin-top:10px !important;
+	text-align: right;
+}
+
+.control_p i {
+	font-style: inherit !important;
+}
+
+.control_p span,.control_p span a {
+	color:#59B468;
+	font-weight: bold;
+}
+
+.control_p span:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+.mat_head {
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #d8687b;
+}
+
+.mat_head span {
+	border-bottom: 3px solid #D8687B;
+	padding: 0px 13px 10px;
+	font-size: 15px;
+}
+
+.listofmats {
+
+}
+
+.listofmats li{
+	padding: 5px 10px 5px 22px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.listofmats li:last-child {
+	/*border-bottom: 0px; */
+}
+
+.listofmats li:nth-child(2n) {
+	background: #f6f6f6;	
+}
+
+.listofmats li:hover {
+	background: #f8f8f8;
+}
+
+.listofmats li p {
+	font-size: 14px;
+letter-spacing: .2px;
+}
+
+.listofmats li p.btnlink, .btnlink {
+font-size: 12px;
+letter-spacing: 0px;
+}
+
+.listofmats li p.btnlink span , .btnlink span{
+	margin-right: 9px;
+	color: #D8687B;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.listofmats li p.btnlink span:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+.bodydiv {
+	padding-bottom: 4px;
+}
+
+.paddit {
+padding: 10px 20px;
+}
+
+.input_holder {
+
+}
+
+.input_holder p{
+font-size: 13px;
+margin-bottom: -2px;
+color: #d8687b;
+}
+
+.inputtext{
+	margin: 0px !important;
+	border: 1px solid #d4d4d4 !important;
+	padding: 11px 0px 11px 11px !important;
+	width: 97.333333333% !important;
+}
+
+.borderit {
+	border-left: 1px solid #d4d4d4;
+	border-top: 1px solid #d4d4d4;
+	border-bottom:  1px solid #d4d4d4;
+}
+
+.borderit:last-child {
+	border-right:  1px solid #d4d4d4;	
+}
+
+.row_ {
+	overflow: hidden;
+	margin-top: 13px;
+}
+
+.noborder {
+	margin: 0px !important;
+border: 0px !important;
+}
+
+.smallselect {
+	display: block;
+	border: none;
+	padding: 4px 0px;
+	height: unset;
+	margin-bottom: 8px;
+}
+
+.marginz {
+	margin: 15px 0px 0px 0px;
+}
+
+.savebutton {
+	background: #d8687b;
+	padding: 13px;
+	width: 100%;
+	margin-left: -15px;
+	border: 0px;
+	color: #fff;
+}
+
+.addmod {
+	margin-top: 10px;
+	color: #D8687B;
+	text-align: right;
+}
+
+.leftdiv {
+	min-height: 700px;
+}
+
+.addmod {
+
+}
+
+.addmod:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+.modbothead {
+	color:#D8687B;
+}
+
+.modbothr {
+		margin: 0px 0px 0px 30px;
+border-bottom: 1px solid #D8687B;
+border-top: 0px;
+padding-top: 13px;
+}
+
+.adddesc_right {
+	overflow: hidden;
+padding-top: 12px;
+}
+
+.modlist {
+	margin: 0px;
+	padding-left: 26px !important;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	overflow:hidden;
+}
+
+.modlist li {
+	float: left;
+	margin-right: 35px;
+	list-style: numeric !important;
+	padding: 5px;
+}
+
+.modlist li:hover {
+	background: #f1f1f1;
+}
+
+.modlist li p {
+	font-weight: bold;
+font-size: 14px;
+color: #606265;
+font-family: calibri;
+}
+
+.modlist_li {
+	overflow-x: auto;
+	overflow-y:auto;
+	height: 363px;
+}
+
+.getmarginbot {
+	margin-bottom: 0px !important;
+}
+
+.addmodule {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.68);
+	z-index: 1000000000000000;
+	display: none;
+}
+
+.addmodule p{
+	color:#d8687b;
+	font-size: 13px;
+}
+
+.inner_mod_div {
+	width: 50%;
+	margin: 30px auto 0px;
+	background: #fff;
+}
+
+.mod_masthead {
+	padding: 10px;
+	border-bottom: 1px solid #D8687B;
+}
+
+.masthead_text {
+	font-weight: bold;
+	font-size: 18px;
+	font-family: calibri;
+	color: #d8687b;
+	border-bottom: 3px solid;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.mod_content {
+	padding: 30px 20px 5px;
+	background: #f1f1f1;
+}
+
+.mod_content .anwtextinput {
+border: 0px;
+border: 1px solid #ccc;
+margin: 0px;
+background: #fff;
+padding: 13px 0px 13px 10px;
+height: unset;
+}
+
+.mod_content textarea {
+	background: #fff;
+	border: 1px solid #ccc;
+	resize: vertical;
+	min-height: 100px;
+}
+
+.addbtn_p {
+	padding: 15px 19px 15px 5px;
+	text-align: right;
+	border-top: 1px solid #d8687b;
+	overflow: hidden;
+}
+
+.addbtn_p button {
+	padding: 8px 62px;
+	background: #d8687b;
+	border: 1px solid #8d3333;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#addmat {
+	float: right;
+	font-size: 28px;
+	color: pink;
+}
+
+#addmat:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+.btnlink span:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+.matedit {
+	float: right;
+	 		font-size: 13px;
+	font-weight: normal;
+	margin-top: 3px;
+	color: #31ad59;
+}
+
+ .matedit a {
+ 		font-size: 13px;
+	font-weight: normal;
+	margin-top: 3px;
+	color: #31ad59;
+ }
+
+ .bigpadd {
+ 	padding: 11px 10px;
+font-size: 16px;
+font-weight: bold;
+ }
+
+ .thebutton {
+ 	margin: 10px 0px;
+	padding: 12px 75px;
+	background: #d8687b;
+	border: 1px solid #a13b4c;
+	border-radius: 3px;
+	color:#fff;
+ }
+
+ .ttype {
+ 	display: block;
+	height: unset;
+	padding: 9px 0px;
+ }
+
+ .dupemail {
+ 	display:none;
+ }
+ 
+ #output {
+	color: #898989;
+	padding-top: 5px;
+}
+
+.thefilespan {
+	border: 1px solid #d8d8d8;
+	padding: 3px;
+	border-radius: 4px;
+	background: #fff;
+	margin-right: 2px;
+}
+
+.thefilespan .removespan {
+	position: relative;
+top: 3px;
+font-size: 15px;
+color: #b3b3b3;
+}
+
+.thefilespan .removespan:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+.matstext {
+	
+}
+
+.matstext span{
+	border: 1px solid #dedede;
+	margin-right: 3px;
+	padding: 3px 9px;
+	font-size: 11px;
+	color: #8f8f8f;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.matstext span:hover {
+	color: #565656;
+	background: #ececec;
+	cursor:pointer;
+}
+
+.matstext a:hover {
+	text-decoration:none;
+}

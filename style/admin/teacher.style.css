@@ -1,0 +1,98 @@
+#addteachertbl {
+	
+}
+
+#addteachertbl tbody tr td {
+	
+}
+
+#addteachertbl tbody tr {
+	
+}
+
+#addteachertbl tbody tr:hover {
+	cursor:pointer;
+	background:#f1f1f1;
+}
+
+#addteachertbl tbody {
+	
+}
+
+#trholder,
+#trholder:hover {
+background: #efefef !important;
+cursor: normal;
+}
+
+#twindowshow {
+	padding: 0px;
+	background: #fff;
+	color: #fff;
+	border: 1px solid #dadada;
+	border-radius: 4px;
+	width: 90%;
+	margin: auto;
+	box-shadow: 0px 2px 2px #d7d7d7;
+}
+
+.selectedtr {
+	background: #f1f1f1;
+}
+
+#twindowshow p {
+	color: #727272;
+}
+
+#twindowshow p span {
+	color: #333;
+}
+
+#twindowshow input[type='text'],
+#twindowshow input[type='email'],
+#twindowshow input[type='password'],
+#twindowshow select {
+	background: #fff;
+	color: #333;
+}
+
+#cancelthis {
+	float: right;
+	font-size: 20px;
+}
+
+#cancelthis:hover {
+	color: #ccc;
+}
+
+#saveteacher {
+	color: #908c8c;
+	margin-right: 30px;
+}
+
+#saveteacher:hover {
+	color:#333;
+	cursor: pointer;
+}
+
+.inactive {
+	background: #ccc;
+	color: #333;
+	border: 1px solid #807c7c;
+}
+
+.input_holder input {
+	margin-bottom: 0px;
+}
+
+.input_holder {
+	margin-bottom: 12px;
+}
+
+.mat_head span {
+	padding-bottom: 11px;
+}
+
+.paddit {
+	padding-bottom: 0px;
+}

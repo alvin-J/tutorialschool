@@ -1,0 +1,355 @@
+.promotext p{
+	padding: 0px;
+	text-align: center;
+}
+
+.promoshead {
+font-size: 25px;
+padding: 35px !important;
+font-weight: bold;
+color: #FDB620;
+
+}
+
+.pheadtextdets p{
+	margin:0px;	
+	padding: 13px;
+}
+
+.getmargp {
+	padding: 0px;
+	margin:0px;
+}
+
+.promohead {
+font-size: 70px;
+font-weight: bold;
+padding: 22px 22px 5px 22px !important;
+letter-spacing: -4px;
+}
+
+.promoheadicon {
+	color: #000;
+font-size: 70px;
+font-weight: bold;
+padding: 5px 22px 5px 22px !important;
+letter-spacing: -4px;
+}
+
+.promobel {
+padding: 14px 0px 0px 0px !important;
+font-size: 11px;
+line-height: 14px;
+}
+
+.top {
+margin: 0px !important;
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+color: #FDB620;
+}
+
+.mid {
+margin: 0px !important;
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+}
+
+.bot {
+	margin: 0px !important;
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+}
+
+.getmargin {
+	margin: 0px;
+	padding: 15px 0px;
+}
+
+.priceheadt {
+padding: 15px 22px 0px 22px !important;
+font-size: 33px;
+font-weight: bold;
+}
+
+.priceunit {
+	font-size: 12px;
+}
+
+.scribe {
+	margin: 15px 22px 0px 22px !important;
+padding: 8px 17px;
+background: #FDB620;
+border: 1px solid #DEA01F;
+font-weight: bold;
+color: #fff;
+}
+
+.addpaddtop {
+	padding-top: 25px !important;
+}
+
+.greenit {
+	color: #48AE5A;
+}
+
+.borderboth {
+	border-bottom: 3px solid #686868;
+}
+
+.saveitbtn {
+	margin-left: 20px;
+margin-top: 16px;
+padding: 10px 35px;
+background: #FDB211;
+border: 1px solid #9fa14d;
+font-weight: bold;
+color: #fff;
+font-size: 14px;
+}
+
+.addhorbot {
+	border-bottom: 1px solid #ccc;
+}
+
+.addhorbot:hover {
+	background: #f1f1f1;
+	cursor:pointer;
+}
+
+.addhorbot:last-child {
+	border:none;
+}
+
+.paypalnotif {
+	display: none;
+background: #3DE7D5;
+border-bottom: 1px solid #2cc0c0;
+position: fixed;
+top: 0px;
+z-index: 100000000000000000000000;
+width: 100%;
+box-shadow: 0px 2px 3px #1f5d5b4d;
+}
+
+.paypalnotif p {
+	margin: 0px;
+text-align: center;
+padding: 35px;
+color: #262424;
+font-size: 18px;
+}
+
+.verifiedtext {
+margin: 0px;
+background: #a1e4a1;
+padding: 13px;
+border: 1px solid #79c979;
+text-shadow: 0px 1px 0px #fefefe;
+color: #105710;
+}
+
+.b2bbtn, .paypal_form {
+	display: none;
+}
+
+.showthiswin {
+	display: block;
+}
+
+.subsbtn {
+	/*
+	background: #d8687b;
+	padding: 9px 50px;
+	color: #fff;
+	border: 1px solid #ad3f51;
+	border-radius: 3px;
+	float: right;
+	font-size: 16px;
+	*/
+	background: #2bcbd1;
+	padding: 13px 50px;
+	color: #fff;
+	float: right;
+	font-size: 16px;
+	width: 100%;
+	border: 0px;
+	/* border-radius: 0px 0px 3px 3px; */
+}
+
+.subsbtn:hover {
+	background:#4adee4;
+}
+
+.substxt {
+	font-size: 16px;
+	font-weight: bold;
+	color: #787878;
+	text-transform: uppercase;
+}
+
+.smalltxt {
+	font-weight: bold;
+    color: #d8687b;
+}
+
+.cd_inner {
+	width: 38%;
+	margin: 50px auto 0px;
+	background: #fff;
+	overflow:hidden;
+}
+
+.confhead {
+	margin:0px;
+	border-bottom: 1px solid #ccc;
+}  
+
+.confhead h4 {
+	margin: 0px;
+	padding: 10px 0px;
+}
+
+.confdets {
+	padding:25px 0px;
+}
+
+.confdets p{
+	font-size: 14px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #6e6d6d;
+}
+
+.conffoot {
+	text-align: center;
+	margin: 7px 0px 17px;
+}
+
+.confbtn {
+	padding: 12px 31px;
+	background: #f38d8d;
+	border: 1px solid #ef5c5c;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.confbtn:hover {
+	text-decoration:none !important;
+}
+
+.selectedplan {
+	background: #d25e5e;
+	color: #fff;
+}
+
+.selectedplan:hover {
+	background:#bf4a4a !important;
+}
+
+.buttonbox p {
+font-size: 18px;
+margin-top: 11px;
+color: #c5c5c5;
+}
+
+.closethewin {	
+/*
+	float: right;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-right: 5px;
+*/
+float: right;
+font-size: 16px;
+margin-top: 5px;
+margin-right: 5px;
+padding-right: 9px;
+}
+
+.closethewin:hover {
+	cursor:pointer;
+	color:#ccc;
+}
+
+#paymentnot {
+	display:none;
+	text-align: center;
+	padding: 10px;
+	background: #de6060;
+	color: #fff;
+	font-size: 14px;
+	box-shadow: 0px 1px 2px #575555;	
+}
+
+.infobardiv {
+margin: 13px 0px 30px;
+}
+
+.infobardiv p {
+	text-align: center;
+}
+
+.infobardiv p span {
+	background: #fff;
+	position: relative;
+	top: 11px;
+	padding: 0px 16px;
+	color: #a9a8a8;
+}
+
+#banktobank {
+	width: 35%;
+	border-radius: 5px;
+	padding-top: 10px;
+	border: 16px solid #968d8d;
+}
+
+.payablehead {
+text-align: center;
+}
+
+.payablehead span{
+	color: #6e6d6d;
+font-size: 16px;
+}
+
+.payablehead small {
+	font-weight: bold;
+	color: #d8687b;
+	font-size: 19px;
+}
+
+.payablehead small span {
+	font-weight: normal;
+	font-size: 11px;
+	color: #7b7a7a;
+	position: relative;
+	top: -3px;
+}
+
+.paymat {
+	border-bottom:1px solid #dedede;
+	padding-bottom: 1px;
+
+}
+
+.paymat span {
+	border-bottom: 4px solid #D8687B;
+	padding-bottom: 3px;
+	color:#787878;
+}
+
+.paymentdiv p {
+	color:#c4c2c2;
+	font-family: tahoma;
+}
+
+.margtop {
+	margin-top: 10px;
+}
+
+.blackenp p{
+color: #787878;
+}

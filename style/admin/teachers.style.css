@@ -1,0 +1,25 @@
+#addteachertbl {
+	
+}
+
+#addteachertbl tbody tr td {
+	
+}
+
+#addteachertbl tbody tr {
+	
+}
+
+#addteachertbl tbody tr:hover {
+	cursor:pointer;
+	background:#f1f1f1;
+}
+
+#addteachertbl tbody {
+	
+}
+
+#twindowshow {
+	padding: 0px;
+	background:none !important;
+}

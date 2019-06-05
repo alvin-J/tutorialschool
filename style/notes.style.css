@@ -1,0 +1,85 @@
+body {
+	font-family: arial;
+padding: 7px;
+background: #ccc;
+}
+
+p {
+	font-size: 11px;
+	margin: 0px;
+	color: #625e5e;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 4px 0px;
+}
+
+hr {
+	border: 0px;
+    border-bottom: 1px dotted #ccc;
+    margin: 11px 0px;
+}
+
+.innerdiv {
+	background: #fff;
+	padding: 14px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 2px #ababab;
+	border: 1px solid #b1a8a8;
+} 
+
+textarea {
+width: 100%;
+min-height: 400px;
+padding: 2px 6px;
+margin-top: 5px;
+resize: vertical;
+/*background: url("https://naldzgraphics.net/wp-content/uploads/2012/08/15-Notebook.jpg");*/
+font-size: 15px;
+line-height: 29px;
+text-shadow: 0px 1px 0px #fff;
+color: #636363;
+background: #c5dddd;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+select {
+	font-size: 16px;
+font-weight: bold;
+width: 100%;
+margin-top: 5px;
+}
+
+button {
+	border: 1px solid #c9c9c9;
+	padding: 9px;
+	width: 100%;
+	border-radius: 3px;
+	background: #dbdbdb;
+}
+
+button:hover {
+	cursor: pointer;
+	background: #fff;
+}
+
+.success {
+	text-align: center;
+	padding: 10px;
+	margin: 6px 0px;
+	background: green;
+	color: #fff;
+}
+
+.saving {
+	text-align: center;
+	padding: 10px;
+	margin: 6px 0px;
+	color: #363636;
+}
+
+#addnew:hover {
+	cursor: pointer;
+	color:#000;
+}

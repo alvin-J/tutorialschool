@@ -1,0 +1,434 @@
+body {
+	overflow:hidden;
+}
+
+.blackerdiv p {
+	color:#d8687b;
+	font-size: 12.4px;
+font-family: arial;
+}
+
+.v_pslip{
+	font-size: 13px;
+	padding: 4px 10px;
+	/*
+	background: #eaea61;
+	border: 0px;
+	box-shadow: 0px 2px 0px #808a1e;
+	*/
+}
+
+.comptxt {
+
+}
+
+.comptxt:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.blackerdiv {
+	position: fixed;
+	top: 0px;
+	z-index: 10000000000;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.63);
+	overflow: auto;
+	display: none;
+}
+
+.innerwhite {
+	width: 60%;
+	margin: 10px auto 20px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.floatright {
+	text-align: right;
+}
+
+.getmarg{
+	margin:0px !important;
+}
+
+.borderbot {
+	border-bottom: 1px solid #d8687b;
+	padding: 15px 0px;
+}
+
+#thename {
+	border-bottom: 3px solid #d8687b;
+	padding: 14px;
+	font-size: 15px;
+	color: #d8687b;
+	text-transform: uppercase;
+}
+
+.pheader {
+	overflow: hidden;
+	padding: 10px 0px 0px 0px;
+}
+
+.pheader p {
+float: left;
+color:#837c7d;
+margin: 0px;
+}
+
+.pheader hr {
+margin: 13px 0px 13px 15px;
+}
+
+#payrolldate {
+	padding-left: 15px;
+	margin: -6px 0px 6px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #343434;
+}
+
+.iconperiod {
+	position: relative;
+	top: 7px;
+}
+
+.payperdets {
+	padding: 0px 0px 0px 0px;
+}
+
+#paystat {
+
+}
+
+.unpaid {
+	background: #d8687b;
+color: #fff;
+padding: 3px 10px;
+border-radius: 99px;
+font-size: 10px;
+}
+
+.paid {
+		background: green;
+color: #fff;
+padding: 3px 10px;
+border-radius: 99px;
+font-size: 10px;
+}
+
+#changepayper {
+	font-size: 11px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	color: #848484;
+}
+
+#changepayper:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+#changepayper i {
+	font-size: 16px;
+	position: relative;
+	top: 3px;
+}
+
+.payrollinfo {
+margin-top: 10px;
+}
+
+.smallheader {
+	margin: 0px;
+}
+
+.divbox {
+	padding: 0px 0px 0px 0px;
+}
+
+.therate {
+overflow: hidden;
+}
+
+.therate input[type='text']{
+	float: left;
+	width: 54.3333%;
+	text-align: right;
+	padding-right: 10px;
+	background: transparent;
+	color: #333;
+	font-size: 15px;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.therate select{
+	display: block;
+	float: left;
+	width: 24.3333%;
+	background: #55c5c5;
+	color: #fff;
+	border-radius: 0px;
+	text-align: center;
+	font-size: 11px;
+	text-transform: uppercase;
+	border: 0px;
+	height: 39.333px;
+	border-left: 1px solid #52a8a8;
+}
+
+.ratebox {
+overflow: hidden;
+background: #fff;
+}
+
+.hrsrendered {
+	margin-top: 12px;
+}
+
+#saverate {
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	float: left;
+	background: #c85165;
+	width: 16.8888%;
+	text-align: center;
+	padding: 10px 0px;
+	border-radius: 0px 3px 3px 0px;
+}
+
+#saverate:hover {
+	color: #ededed;
+	cursor: pointer;
+	background: #ae4657;
+}
+
+.hrstbl {
+background: #f3f3f3;
+height: 250px;
+border: 1px solid #ccc;
+overflow: auto;
+border-radius: 3px;
+}
+
+.hrstbl table{
+box-shadow: 0px 2px 2px #dadada;
+}
+
+.hrstbl table tr{
+border-bottom: 1px solid #ccc;
+background: #fff;
+}
+
+.hrstbl table tr:nth-child(2n+2) {
+	background: #f1f1f1;
+}
+
+.hrstbl table tr:nth-child(2n+2) .smalltable tr td {
+	background: #fff;
+}
+
+.hrstbl table tr td{
+padding: 5px;
+font-size: 13px;
+}
+
+.hrstbl table tr td:first-child {
+	text-align: center;
+	font-size: 15px;
+}
+
+.borderright {
+	border-right:1px solid #d8687b;
+}
+
+.payrollbtn {
+	background: #d8687b;
+	color:#fff;
+}
+
+#createpayroll {
+	text-align: right;
+}
+
+#sendpayslip {
+	display: none;
+}
+
+.thebtnpaypop {
+background: #c6475e;
+color: #fff;
+padding: 6px 17px;
+border: 1px solid #a53c4e;
+margin-top: 10px;
+border-radius: 3px;
+}
+
+.thebtnpaypop:hover {
+	background: #d77586;
+}
+
+.earningstbl {
+	color: #fff;
+}
+
+.earningstbl tbody tr{
+	border-bottom: 1px solid #fff;
+}
+
+.earningstbl tbody tr td {
+	padding: 7px 8px;
+	font-size: 13px;
+}
+
+.earningstbl tbody tr td strong {
+	color:#fff;
+}
+
+.earningstbl tbody tr:last-child {
+	border-top: 5px double #fcfcfc;
+	border-bottom: 0px;
+}
+
+.theamount {
+	font-weight: bold;
+}
+
+.margbot60 {
+	margin-bottom: 60px;
+}
+
+.margtop20 {
+	margin-top: 20px;
+}
+
+.payheadtxt {
+	position: relative;
+	top: 25px;
+	font-size: 20px !important;
+	color:#fff !important;
+}
+
+.bigithead {
+	font-size: 16px !important;
+	padding-left: 0px !important;
+}
+
+#selectdates {
+	margin-top: 10px;
+}
+
+.deletetime {
+	float: right;
+font-size: 19px;
+color: #D8687B;
+}
+
+.deletetime:hover {
+	cursor: pointer;
+	color:red;
+}
+
+.smalltable {
+box-shadow: none !important;
+}
+
+.smalltable tr{
+	border: none !important;
+}
+
+.smalltable tr td{
+	border: 1px solid #ccc;
+	text-align: left !important;
+	font-size: 13px !important;
+	background: #f1f1f1;
+}
+
+.paidtext {
+	font-size: 30px !important;
+	text-align: center;
+	margin: 38px 0px 0px;
+	border-top: 10px double;
+	border-bottom: 10px double;
+	padding: 10px 0px;
+	background: #f3f3f3;
+}
+
+#middlepopdiv {
+	overflow: hidden;
+	background: #c85165;
+	border-radius: 3px;
+}
+
+.pinkright {
+
+}
+
+.whiteleft {
+	background: #fff;
+}
+
+.paylogo {
+	border: 5px solid #fff;
+	border-radius: 99px;
+}
+
+#payrollinformation {
+	padding: 3px 15px 13px;
+	background: #fff;
+	box-shadow: 0px 2px 2px #f0f0f0;
+	border: 1px solid #f0f0f0;
+	margin: 14px auto 10px;
+	border-radius: 5px;
+}
+
+.daterangepick {
+	float: left;
+	width: 85% !important;
+}
+
+.selectcalicon:hover {
+	cursor: pointer;
+	color:#838383;
+}
+
+.input-daterange {
+
+}
+
+.input-daterange input[type='text'] {
+border: 0px;
+border: 1px solid #ccc;
+width: 94%;
+}
+
+.input-group-addon {
+	position: relative;
+	z-index: 100000;
+}
+
+.fromcal {
+	border-radius: 5px 0px 0px 5px !important;
+}
+
+.tocal {
+	border-radius: 0px 5px 5px 0px !important;
+}
+
+#selectdatebtn {
+	background: #d8687b;
+	color: #fff;
+	padding: 8px 10px;
+	border-radius: 3px;
+	font-size: 10px;
+	border: 1px solid #c54f4f;
+}
+
+#selectdatebtn:hover {
+	background: #e46f83;
+}

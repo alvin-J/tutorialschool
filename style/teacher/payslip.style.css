@@ -1,0 +1,55 @@
+.paysliplist {
+
+}
+
+.paysliplist li{
+border: 1px solid #d1cfcf;
+padding: 13px;
+border-radius: 4px;
+background: #f1f1f1;
+margin-bottom: 3px;
+}
+
+.paysliplist li:hover {
+	cursor: pointer;
+	background: #fff;
+}
+
+.paysliplist li h3{
+	font-size: 16px;
+margin-bottom: 4px;
+}
+
+.paysliplist li p{
+	
+}
+
+.earningstbl {
+	color:#333;
+	margin: auto;
+width: 95%;
+}
+
+.earningstbl tbody tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.earningstbl tbody tr td {
+	padding: 9px;
+}
+
+.earningstbl tbody tr:last-child {
+	border-top: 5px double #ccc;
+border-bottom: 0px;
+}
+
+.selectedps {
+	background: #d8687f !important;
+	color: #fff !important;
+}
+
+.theamount {
+	font-weight: bold;
+	font-size: 18px;
+	color: #d8687f;
+}
